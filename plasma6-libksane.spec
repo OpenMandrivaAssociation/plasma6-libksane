@@ -19,9 +19,10 @@ BuildRequires:	cmake(KF6Wallet)
 BuildRequires:	cmake(KF6WidgetsAddons)
 BuildRequires:	cmake(KF6TextWidgets)
 BuildRequires:	cmake(KSaneCore)
-BuildRequires:	pkgconfig(Qt6Core)
-BuildRequires:	pkgconfig(Qt6Widgets)
-BuildRequires:	pkgconfig(Qt6Test)
+BuildRequires:	cmake(Qt6)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6Widgets)
+BuildRequires:	cmake(Qt6Test)
 
 %description
 LibKSane is a KDE interface for SANE library to control flat scanner.
