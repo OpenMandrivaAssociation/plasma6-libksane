@@ -5,7 +5,7 @@
 
 Summary:	A library for dealing with scanners
 Name:		plasma6-libksane
-Version:	24.01.80
+Version:	24.01.85
 Release:	1
 Group:		System/Libraries
 License:	GPLv2
@@ -18,7 +18,7 @@ BuildRequires:	cmake(KF6I18n)
 BuildRequires:	cmake(KF6Wallet)
 BuildRequires:	cmake(KF6WidgetsAddons)
 BuildRequires:	cmake(KF6TextWidgets)
-BuildRequires:	cmake(KSaneCore)
+BuildRequires:	cmake(KSaneCore6)
 BuildRequires:	cmake(Qt6)
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6Widgets)
